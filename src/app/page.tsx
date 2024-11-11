@@ -26,7 +26,7 @@ function generateStrongerPassword(length: number): string {
     });
 
   // 단어들 사이에 특수문자 또는 숫자 삽입
-  const separators = ['_', '-', 'number'];
+  const separators = ['_', '-', '@', '$', 'number'];
   let result = selectedWords[0];
   let numberCount = 0;
 
